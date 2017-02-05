@@ -36,6 +36,11 @@ public class Book {
 		this.year = year;
 		this.isbn = isbn;
 	}
+	
+	public long getId() {
+		
+		return id;
+	}
 
 	public String getTitle() {
 		return title;
