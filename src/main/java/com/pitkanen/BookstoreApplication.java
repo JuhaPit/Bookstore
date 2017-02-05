@@ -20,7 +20,9 @@ public class BookstoreApplication {
 		
 		return (args) -> {
 			
-			repository.save(new Book("Title", "Author", 2017, "ISBN"));
+			repository.save(new Book("Viimeinen toivomus", "Andrzej Sapkowski", 1993, "978-951-0-36569-4"));
+			repository.save(new Book("6/12", "Ilkka Remes", 2006, "978-951-0-32050-1"));
+			repository.save(new Book("Lohikäärmetanssi", "George R. R. Martin", 2014, "978-952-5802-09-2"));
 		};
 	}
 }
