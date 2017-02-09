@@ -47,5 +47,11 @@ public class BookController{
 		repository.delete(bookId);
 		return "redirect:../index";
 	}
+	
+	@RequestMapping(value="/login", method = RequestMethod.GET)
+	public String login(Model model){
+		
+		return "login";
+	}
 		
 }
